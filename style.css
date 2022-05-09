@@ -315,7 +315,7 @@ body.menu-expanded button path {
 
 #home .stats {
   width: 100%;
-  padding-block: 4rem;
+  padding-block: 6rem;
   margin-inline: auto;
 
   border: 1px solid var(--brand-light);
