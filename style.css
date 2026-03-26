@@ -12,7 +12,7 @@
   --paragraph: hsl(210, 9%, 31%);
 
   --brand-beige: hsl(39, 73%, 95%);
-  --brand-light: hsl(calc(var(--hue) - 22) 118, 23%, 89%);
+  --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
   --brand-button-hover: hsl(var(--hue), 100%, 14%);
 
   --bg-light: hsl(180, 14%, 97%);
@@ -36,7 +36,7 @@ body {
   font-family: 'DM Sans';
   font-size: 1.6rem;
   text-align: center;
-  overflow: overlay;
+  overflow: auto;
 }
 
 .wrapper {
@@ -506,7 +506,7 @@ footer p {
   }
 
   nav#navigation .menu ul li a {
-    opacity: 0.7rem;
+    opacity: 0.7;
     color: var(--primary-color);
     font-size: 1.8rem;
   }
