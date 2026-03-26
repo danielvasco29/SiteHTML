@@ -30,19 +30,11 @@ function activateMenuAtCurrentSection(section) {
   // o topo da seção chegou ou ultrapassou a linha alvo
   const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
 
-  //informações dos dados e da lógica
-  console.log(
-    'O topo da seção chegou ou passou da linha?',
-    sectionTopReachOrPassedTargetLine
-  )
-
   // a seção termina onde?
   const sectionEndsAt = sectionTop + sectionHeight
 
   // o final da seção passou da linha alvo
   const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
-
-  console.log('O fundo da seção passou da linha?', sectionEndPassedTargetLine)
 
   // limites da seção
   const sectionBoundaries =
